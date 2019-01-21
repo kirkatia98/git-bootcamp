@@ -10,7 +10,7 @@
  *
  * It uses a singly-linked list to represent the set of queue elements
  */
-
+MAKE CHANGES
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -27,7 +27,7 @@ queue_t *q_new()
     queue_t *q =  malloc(sizeof(queue_t));
     /* What if malloc returned NULL? */
     q->head = NULL;
-    return q;
+    //return q;
 }
 
 /* Free all storage used by queue */
